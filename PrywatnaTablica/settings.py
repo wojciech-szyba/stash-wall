@@ -31,7 +31,7 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 LOGIN_URL = '/login/'  # Gdzie przekierować niezalogowanych
-LOGIN_REDIRECT_URL = '/tablica/'  # Gdzie po zalogowaniu
+LOGIN_REDIRECT_URL = '/list/'  # Gdzie po zalogowaniu
 LOGOUT_REDIRECT_URL = '/login/'
 
 # Application definition
