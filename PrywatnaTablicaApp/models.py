@@ -1,3 +1,13 @@
+"""
+ Copyright (C) 2026 Wojciech Szyba - All Rights Reserved
+ You may use, distribute and modify this code under the
+ terms of the GNU GENERAL PUBLIC LICENSE license,
+ You should have received a copy of the license with
+ this file. If not, please visit :
+https://github.com/wojciech-szyba/stash-wall/blob/main/LICENSE
+ */
+"""
+
 from django.db import models
 from django.urls import reverse
 
