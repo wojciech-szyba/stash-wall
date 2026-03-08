@@ -62,7 +62,9 @@ class MemoriesModel(models.Model):
     def check_if_content_has_embed(self):
         if 'youtube' in self.content:
             if '.com' in self.content:
-                return f'{self.content.replace("https://","//")}'
+                replace_prefix = self.content.replace("https://", "//")
+                replace_watch_by_embed = replace_prefix.replace("watch?v=", "embed/")
+                return replace_watch_by_embed
             else:
                 return self.content
         else:
