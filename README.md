@@ -1,5 +1,5 @@
 # WallStash
-Taggable notes wall with auto-category filtering (Spotify/YouTube/source code detection), date search, and one-click clipboard copy. (Django app)
+Taggable notes wall with auto-category filtering (Spotify/YouTube embed/source code detection), date search, and one-click clipboard copy. (Django app)
 
 ## Demo:
-Under construction
+![Alt text](demo.gif)
